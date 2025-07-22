@@ -9,7 +9,7 @@ describe("RateLimitService", () => {
   let redis: Redis;
 
   beforeAll(() => {
-    redis = new Redis("redis://:myredissecret@127.0.0.1:6379", {
+    redis = new Redis("redis://:myredissecret@127.0.0.1:63790", {
       maxRetriesPerRequest: null,
       enableAutoPipelining: false, // Align with our settings overwrite for rate limit service
     });

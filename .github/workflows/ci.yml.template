@@ -15,9 +15,9 @@ env:
 jobs:
   build-lint:
     env:
-      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
-      SHADOW_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
-      DIRECT_URL: postgresql://postgres:postgres@localhost:5432/postgres
+      DATABASE_URL: postgresql://postgres:postgres@localhost:54320/postgres
+      SHADOW_DATABASE_URL: postgresql://postgres:postgres@localhost:54320/postgres
+      DIRECT_URL: postgresql://postgres:postgres@localhost:54320/postgres
     runs-on: ubuntu-latest
 
     steps:

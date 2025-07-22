@@ -223,7 +223,7 @@ describe("Authenticate API calls", () => {
   });
 
   describe("validates with redis", () => {
-    const redis = new Redis("redis://:myredissecret@127.0.0.1:6379", {
+    const redis = new Redis("redis://:myredissecret@127.0.0.1:63790", {
       maxRetriesPerRequest: null,
     });
 
@@ -664,7 +664,7 @@ describe("Authenticate API calls", () => {
   });
 
   describe("invalidates api keys in redis", () => {
-    const redis = new Redis("redis://:myredissecret@127.0.0.1:6379", {
+    const redis = new Redis("redis://:myredissecret@127.0.0.1:63790", {
       maxRetriesPerRequest: null,
     });
 
